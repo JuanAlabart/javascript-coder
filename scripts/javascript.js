@@ -40,7 +40,7 @@ function elegirPiedra(){
     }
 }
 
-//collar
+//collares
 function validarPrecio (prenda, piedra) {
 
     if (prenda === "Collar" && piedra === "Turmalina" ) {
@@ -52,7 +52,7 @@ function validarPrecio (prenda, piedra) {
     } else if (prenda === "Collar" && piedra === "Cuarzo Rosa" && talle === "Xs") {
         return 1800;
 
-//pulsera
+//pulseras
     
     } else if (prenda === "Pulsera" && piedra === "Turmalina") {
         return 900;
@@ -63,7 +63,7 @@ function validarPrecio (prenda, piedra) {
     } else if (prenda === "Pulsera" && piedra === "Cuarzo Rosa") {
         return 1200;
    
-//vestidos
+//anillos
 
     } else if (prenda === "Anillo" && piedra === "Turmalina") {
         return 500;
@@ -77,11 +77,11 @@ function validarPrecio (prenda, piedra) {
 }
 }
 
-
+//presupuesto
 function presupuesto (nombre, piedra, precio){
     alert("El precio de " + nombre + " de piedra " + piedra + "\nes de $" + precio)
 }
-
+//cobro
 function cobrar (nombre, precio){
     let pago;
     do {
